@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <Container className="App">
         <Header as='h1'>Rock, Paper, Scissors</Header>
+        <span>Click a Hand to Make Your Choice</span>
         <hr />
         <RPS />
       </Container>
